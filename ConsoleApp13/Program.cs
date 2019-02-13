@@ -6,17 +6,17 @@ namespace ConsoleApp13
     {
         static void Main(string[] args)
         {
-            int password = 123;
+            string password = "VS@2019";
             string userId = "YShin";
             Console.WriteLine("Please enter your userId: ");
             string userIdInput = Console.ReadLine();
 
             Console.WriteLine("Please enter your password: ");
-            int passwordInput = int.Parse(Console.ReadLine());
+            string passwordInput = Console.ReadLine();
 
             if (userIdInput == userId && passwordInput == password)
             {
-                Console.WriteLine("Logging in...");//comment
+                Console.WriteLine("Logging in...");
             }
             else
             {
